@@ -5,6 +5,12 @@
 ![SQLite](https://img.shields.io/badge/SQLite-Data-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+[![Telegram](https://img.shields.io/badge/Telegram-Join%20Channel-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/imrankhan95)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow%20Me-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/_imrannkhn/)
+[![Website](https://img.shields.io/badge/Website-Mystic%20Movies-4caf50?style=flat&logo=google-chrome&logoColor=white)](https://mysticmovies.site/)
+
+---
+
 A powerful, full-featured Telegram bot built with **Python** and **SQLite**. It features a user database, an interactive Admin Panel, broadcasting capabilities, and auto-deleting messages with persistent warnings.
 
 ---
@@ -61,8 +67,8 @@ Before you begin, ensure you have met the following requirements:
     Open `bot.py` and edit the configuration section:
     ```python
     # --- CONFIGURATION ---
-    TOKEN = "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"  # Your Bot Token
-    ADMIN_ID = 123456789                                # Your Numeric Admin ID
+    TOKEN = "YOUR_BOT_TOKEN"    # Your Bot Token
+    ADMIN_ID = 123456789        # Your Numeric Admin ID
     ```
 
 ---
