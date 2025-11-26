@@ -13,7 +13,7 @@ from telegram.ext import (
 )
 
 # --- CONFIGURATION ---
-TOKEN = "7112905399:AAErXvROOP1DpBhQe3tFPX2jhUazQvHBlMg"  # <--- REPLACE THIS
+TOKEN = "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"  # <--- REPLACE THIS
 ADMIN_ID = 2037442900           # <--- REPLACE THIS
 
 # --- LOGGING SETUP ---
@@ -311,5 +311,6 @@ if __name__ == '__main__':
     # 3. TEXT HANDLER (For Hi/Hello/Etc)
     # Catches any text that isn't a command
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, user_reply))
+
 
     application.run_polling()
